@@ -4,6 +4,8 @@ A **sanitized, reference implementation** of an enterprise container and Kuberne
 
 > ⚠️ **Sanitized portfolio artifact.** This repository contains **generic templates and methodology only**. It includes no employer-internal data, no real cluster names, registries, findings, or configurations. All names, thresholds, and examples are illustrative and provided to demonstrate approach and structure.
 
+### 📄 [Read the Attack Surface Management case study →](CASE-STUDY.md)
+
 ## Why this exists
 
 Most container vulnerability programs fail not because the scanner misses CVEs, but because there is no **operating model** around the scanner: unclear ownership, no risk-based prioritization, no SLAs, and scanner output that never becomes audit-ready evidence. This repository codifies the operating model — who does what, in what order, against which SLAs, mapped to which controls.
