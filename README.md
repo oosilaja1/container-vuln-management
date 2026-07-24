@@ -26,11 +26,13 @@ Most container vulnerability programs fail not because the scanner misses CVEs, 
 | [`governance/raci-matrix.md`](raci-matrix.md) | The KaaS-Team-vs-Cluster-Owner RACI matrix. |
 | [`templates/remediation-ticket-template.md`](remediation-ticket-template.md) | A standardized remediation ticket / work item template. |
 | [`templates/risk-acceptance-template.md`](risk-acceptance-template.md) | A time-boxed risk acceptance / exception template. |
+| [`SAMPLE-DATA.md`](SAMPLE-DATA.md) | A sanitized, **synthetic 240-cluster scan dataset** (`.xlsx` + `.csv`) the program operates on — the data the companion tools consume. |
 
 ## Companion repositories
 
-- **Container Vulnerability Remediation Plan (CVRP)** — the 15-section, control-mapped remediation plan template.
-- **Kubernetes Version-Compliance Tracker** — working code that flags EOL cluster versions and computes version-compliance.
+- **[container-vuln-remediation-plan](https://github.com/oosilaja1/container-vuln-remediation-plan)** — the 15-section, control-mapped remediation plan template (CVRP).
+- **[k8s-version-compliance-tracker](https://github.com/oosilaja1/k8s-version-compliance-tracker)** — working code that flags EOL cluster versions and computes version-compliance.
+- **[container-vulnerability-risk-analytics](https://github.com/oosilaja1/container-vulnerability-risk-analytics)** — turns the scan dataset into an executive risk dashboard.
 
 ## License
 
